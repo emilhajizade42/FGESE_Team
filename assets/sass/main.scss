@@ -1,8 +1,9 @@
-@import "./abstract/mixins";
+@import "./utils/mixins";
+@import "./base/typography";
 @import "./pages/homePage/navbar/navbar";
 @import "./pages/homePage/educationFields/ed-fields";
 @import "./pages/homePage/whyAcademy/whyAcademy";
 @import "./pages/homePage/whyAcademy_paralax/whycodeacademy_paralax";
 @import "./pages/homePage/graduentsComments/graduentsComments";
 @import "./pages/homePage/ourGraduates/ourGraduates";
-@import "./pages/homePage/footer/footer"
+@import "./pages/homePage/footer/footer";

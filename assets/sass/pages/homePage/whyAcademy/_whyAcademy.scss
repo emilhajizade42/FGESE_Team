@@ -17,7 +17,7 @@ $content-font_size:16px;
     margin: 40px  0;
 }
 .why_academy_content{
-    font-size: $content-font_size;
+    font-family: $secondary-font;
 }
 .why_academy_cardbox{
     margin: 70px 0;
@@ -37,6 +37,7 @@ $content-font_size:16px;
     font-weight: bold;
 }
 .card_item_content_text{
+    font-family: $secondary-font;
     font-size: 16px;
 }
 .card_item_content_infoLink{

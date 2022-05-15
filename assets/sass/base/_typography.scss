@@ -1,0 +1,15 @@
+// @font-face {
+//     font-family: GraublauWeb;
+//     src: url("/assets/fonts/Visby_Font/Fontspring-DEMO-visbycf-light.otf") format("opentype");
+// }
+// $primary-font:GraublauWeb;
+// .why_academy_content{
+//     font-family: $primary-font;
+// }
+// Not support for Azerbaijan alfabet
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+// $primary-font:sans-serif;
+// *{
+//     font-family:primary-font;
+//     }
+$secondary-font:'Lato', sans-serif;
