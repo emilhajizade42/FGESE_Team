@@ -49,14 +49,12 @@ nav{
         transition: 300ms;
         &:hover{
             border-bottom: 3px solid orange;
-            
             .nav_menu_hover_menu{
                 display: block;
                 position: absolute;
                 top:50px;
                 left:0px;
                 height: max-content;
-                
                 nav{
                     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
                     width: max-content;
@@ -82,7 +80,6 @@ nav{
     background-color: #fff;
     z-index: 1;
 }
-
 .nav_button_box{
     height: 100%;
     display: flex;

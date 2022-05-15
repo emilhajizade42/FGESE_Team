@@ -1,33 +1,33 @@
 #mezun{
     .graduate-info{
         display: flex;
-    justify-content: center;
-    flex-direction: column;
-    font-family: 'Montserrat', sans-serif;
-    .graduate-info-comment>p{
-        font-size: 40px;
-        margin: 0 auto;
-        span{
-                font-weight:800;
-        }
-    }
-    .graduate-info-comment_item-com{
-        max-width: 700px;
-        margin: 0 auto;
-    }
-    .graduate-info-comment{
-        margin-top: 20px;
-        text-align: center;
-        display: flex;
         justify-content: center;
         flex-direction: column;
-        p{
+        font-family: 'Montserrat', sans-serif;
+        .graduate-info-comment>p{
+            font-size: 40px;
+            margin: 0 auto;
+            span{
+                font-weight:800;
+            }
+        }
+        .graduate-info-comment_item-com{
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .graduate-info-comment{
+            margin-top: 20px;
+            text-align: center;
             display: flex;
             justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
+            flex-direction: column;
+            p{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 10px;
+            }
         }
         .graduate-info-comment_item{
             &:hover{
@@ -35,9 +35,7 @@
             }
         }
     }
-    
     .graduate-info-comment_item-image{
-        
         display: flex;
         justify-content: center;
         .user{
@@ -53,33 +51,30 @@
             text-align: left;
         }
     }
-        .image{
-            img{
-            border-radius: 50%;
-                width: 100px;
-                height: 100px;
-            }
+    .image{
+        img{
+        border-radius: 50%;
+            width: 100px;
+            height: 100px;
         }
- 
+    }
 }
 #partnyor{
     padding: 100px;
     margin-top: 100px;
-    
     font-family: 'Montserrat', sans-serif;
     .akademik-partnyor{
         display: flex;
         justify-content: center;
-    flex-direction: column;
-    .akademik-partnyor-info{
-        text-align: center;
-        
-        display: flex;
-        justify-content: center;
-    flex-direction: column;
-    display: grid;
-    row-gap: 50px;
-    }
+        flex-direction: column;
+        .akademik-partnyor-info{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            display: grid;
+            row-gap: 50px;
+        }
         .col1>p{
             font-family: 'Montserrat', sans-serif;
             margin: 0;
@@ -100,8 +95,6 @@
     }
     .akademik-partnyor-icon{
         margin-top: 80px;
-       
-        // gap: 50px;
         .special{
             width: 120px;
             height: 70px;
@@ -113,11 +106,9 @@
             flex-flow:row wrap;
         }
         .icon_item>a>img{
-            
             margin-top: 30px;
             margin-bottom: 30px;
-           width: 120px;
-           
+            width: 120px;
         }
     }
-    }
+}

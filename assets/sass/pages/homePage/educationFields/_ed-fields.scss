@@ -1,13 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 #education-fields{
     padding-bottom: 100px;
 }
-
 .ed-fields-left{
     .ed-fields-left-header{
         margin-top: 100px;
@@ -27,16 +20,14 @@
         }
     }
 }
-
 .ed-fields-right{
     margin-top: 100px;
     .ed-fields-first-row , .ed-fields-second-row{
         display: flex;
     }
 }
-
 .card-border-left-1 , .card-border-right-1, .card-border-left-2 , .card-border-right-2{
-    border: 1px solid grey;
+        border: 1px solid grey;
         width: 50%;
         height: 100%;
         &>div{
@@ -58,15 +49,15 @@
             position: relative;
             &>div{
                 margin: 0;
-                    position: relative;
-                    width: 100%;
-                    transform: scaleX(1.1) scaleY(1.2);
-                    transition-duration: 0.5s;
-                    background-color: #9b51e0;
-                    color: white;
-                    img{
-                        filter: invert(100%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(108%) contrast(100%);
-                    }
+                width: 100%;
+                position: relative;
+                transform: scaleX(1.1) scaleY(1.2);
+                transition-duration: 0.5s;
+                background-color: #9b51e0;
+                color: white;
+                img{
+                    filter: invert(100%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(108%) contrast(100%);
+                }
             }
 
         }
@@ -74,15 +65,15 @@
             position: relative;
             &>div{
                 margin: 0;
-                    position: relative;
-                    width: 100%;
-                    transform: scaleX(1.1) scaleY(1.2);
-                    transition-duration: 0.5s;
-                    background-color: #0693e3;
-                    color: white;
-                    img{
-                        filter: invert(100%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(108%) contrast(104%);
-                    }
+                position: relative;
+                width: 100%;
+                transform: scaleX(1.1) scaleY(1.2);
+                transition-duration: 0.5s;
+                background-color: #0693e3;
+                color: white;
+                img{
+                    filter: invert(100%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(108%) contrast(104%);
+                }
             }
 
         }
@@ -90,15 +81,15 @@
             position: relative;
             &>div{
                 margin: 0;
-                    position: relative;
-                    width: 100%;
-                    transform: scaleX(1.1) scaleY(1.2);
-                    transition-duration: 0.5s;
-                    background-color: #fcb900;
-                    color: white;
-                    img{
-                        filter: invert(100%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(108%) contrast(104%);
-                    }
+                position: relative;
+                width: 100%;
+                transform: scaleX(1.1) scaleY(1.2);
+                transition-duration: 0.5s;
+                background-color: #fcb900;
+                color: white;
+                img{
+                    filter: invert(100%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(108%) contrast(104%);
+                }
             }
 
         }
@@ -106,15 +97,15 @@
             position: relative;
             &>div{
                 margin: 0;
-                    position: relative;
-                    width: 100%;
-                    transform: scaleX(1.1) scaleY(1.2);
-                    transition-duration: 0.3s;
-                    background-color: #00d084;
-                    color: white;
-                    img{
-                        filter: invert(100%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(108%) contrast(104%);
-                    }
+                position: relative;
+                width: 100%;
+                 transform: scaleX(1.1) scaleY(1.2);
+                transition-duration: 0.3s;
+                background-color: #00d084;
+                color: white;
+                img{
+                    filter: invert(100%) sepia(4%) saturate(0%) hue-rotate(337deg) brightness(108%) contrast(104%);
+                }
             }
         }
 }

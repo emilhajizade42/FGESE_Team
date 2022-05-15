@@ -1,26 +1,26 @@
 #graduates {
   margin-bottom: 100px;
-  .heading {
-    text-align: center;
-    .title-our {
-      h2 {
-        color: rgb(61, 61, 61);
-        font-weight: bold;
-        font-size: 50px;
-      }
+}
+.heading {
+  text-align: center;
+  .title-our {
+    h2 {
+      color: rgb(61, 61, 61);
+      font-weight: bold;
+      font-size: 50px;
     }
-    .title-grads {
-      h2 {
-        color: rgb(75, 74, 74);
-        font-size: 50px;
-        font-weight: lighter;
-      }
+  }
+  .title-grads {
+    h2 {
+      color: rgb(75, 74, 74);
+      font-size: 50px;
+      font-weight: lighter;
     }
-    .line {
-      width: 120px;
-      border: 2px solid rgb(255, 188, 62);
-      margin: 30px auto;
-    }
+  }
+  .line {
+    width: 120px;
+    border: 2px solid rgb(255, 188, 62);
+    margin: 30px auto;
   }
 }
 .seven-cols {
@@ -85,5 +85,14 @@
   }
   to {
     transform: rotateY(0deg);
+  }
+}
+@media only screen and (max-width: 992px) {
+  .seven-cols {
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 0px;
   }
 }
