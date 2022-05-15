@@ -426,11 +426,13 @@ nav {
 .why_academy_header {
   font-size: 50px;
   font-weight: normal;
+  color: #4a4a4a;
 }
 
 .why_academy_bold_header {
   font-size: 50px;
   font-weight: bold;
+  color: #4a4a4a;
 }
 
 .why_academy_img {
@@ -557,7 +559,7 @@ nav {
 .shadow {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   z-index: 1;
 }
