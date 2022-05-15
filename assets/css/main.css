@@ -593,7 +593,8 @@ nav {
 }
 
 #mezun .graduate-info .graduate-info-comment > p span {
-  font-weight: 800;
+  font-weight: bolder;
+  font-weight: sans-serif;
 }
 
 #mezun .graduate-info .graduate-info-comment_item-com {
@@ -959,7 +960,7 @@ body {
   background-color: #fff;
 }
 
-.contact {
+#contact {
   font-family: sans-serif;
   background-color: whitesmoke;
   padding-bottom: 20vh;
@@ -1127,6 +1128,13 @@ body {
 
 .socials i {
   margin-right: 20px;
+}
+
+footer {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0px;
+  z-index: -1;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
