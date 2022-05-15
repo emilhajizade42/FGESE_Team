@@ -1,0 +1,51 @@
+.parallax_content_h2{
+    color: #fff;
+    font-family: 'Montserrat', sans-seriff;
+    font-size: 20px;
+    font-weight:800;
+    margin-top: 30px !important;
+    text-align: center;
+}
+.parallax_content_box h3{
+    color: #fff;
+    font-family: 'Montserrat', sans-seriff;
+    font-size: 70px;
+    font-weight:800;
+}
+.parallax_content_box p{
+    color: #fff;
+    font-family: 'Montserrat', sans-seriff;
+    font-size: 35px;
+    font-weight: 300;
+}
+#parallax{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/assets/images/whyAcademyParalax_imgs/code-academy-bg.jpeg);
+    background-attachment: fixed;
+    width: 100%;
+    position:relative;
+}
+.parallax_content{
+    position: relative;
+    z-index: 2;
+}
+.parallax_content_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.shadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0 ,0.3);
+    position: absolute;
+    z-index: 1;   
+}
+@media screen and (min-width:153px) and(max-width:768px){
+    h3,p{
+        justify-content: center;
+        display: flex;
+    }
+}

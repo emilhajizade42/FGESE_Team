@@ -1,0 +1,89 @@
+#graduates {
+  margin-bottom: 100px;
+  .heading {
+    text-align: center;
+    .title-our {
+      h2 {
+        color: rgb(61, 61, 61);
+        font-weight: bold;
+        font-size: 50px;
+      }
+    }
+    .title-grads {
+      h2 {
+        color: rgb(75, 74, 74);
+        font-size: 50px;
+        font-weight: lighter;
+      }
+    }
+    .line {
+      width: 120px;
+      border: 2px solid rgb(255, 188, 62);
+      margin: 30px auto;
+    }
+  }
+}
+.seven-cols {
+  gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 80px;
+}
+.card-item {
+  position: relative;
+  img {
+    width: 150px;
+    height: 150px;
+  }
+  .system {
+    @include info(#00b45ad5);
+  }
+  .design {
+    @include info(#ffcd05ce);
+  }
+  .programming {
+    @include info(#2383c8d2);
+  }
+  .marketing {
+    @include info(#872891d2);
+  }
+  .teachers {
+    @include info(#cf0000c7);
+  }
+  .content h3 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  &:hover {
+    animation-name: flip;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    .content {
+      animation-name: show-info;
+      animation-duration: 1s;
+      animation-delay: 0.3s;
+      animation-fill-mode: forwards;
+      transform: rotateY(-180deg);
+    }
+  }
+  animation: flipback;
+  animation-duration: 1s;
+}
+@keyframes flip {
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+@keyframes show-info {
+  100% {
+    visibility: visible;
+  }
+}
+@keyframes flipback {
+  from {
+    transform: rotateY(180deg);
+  }
+  to {
+    transform: rotateY(0deg);
+  }
+}

@@ -1,0 +1,12 @@
+@mixin info($ccolor) {
+  padding: 13px;
+  color: white;
+  background-color: $ccolor;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  font-size: 14px;
+}

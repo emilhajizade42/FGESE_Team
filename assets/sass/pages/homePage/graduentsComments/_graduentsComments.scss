@@ -1,0 +1,123 @@
+#mezun{
+    .graduate-info{
+        display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    .graduate-info-comment>p{
+        font-size: 40px;
+        margin: 0 auto;
+        span{
+                font-weight:800;
+        }
+    }
+    .graduate-info-comment_item-com{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .graduate-info-comment{
+        margin-top: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        }
+        .graduate-info-comment_item{
+            &:hover{
+                cursor:pointer;
+            }
+        }
+    }
+    
+    .graduate-info-comment_item-image{
+        
+        display: flex;
+        justify-content: center;
+        .user{
+            padding: 0;
+            margin-top: 15px;
+            max-height: 50px;
+            margin: 20px;
+        }
+        .user>p{
+            padding: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+            text-align: left;
+        }
+    }
+        .image{
+            img{
+            border-radius: 50%;
+                width: 100px;
+                height: 100px;
+            }
+        }
+ 
+}
+#partnyor{
+    padding: 100px;
+    margin-top: 100px;
+    
+    font-family: 'Montserrat', sans-serif;
+    .akademik-partnyor{
+        display: flex;
+        justify-content: center;
+    flex-direction: column;
+    .akademik-partnyor-info{
+        text-align: center;
+        
+        display: flex;
+        justify-content: center;
+    flex-direction: column;
+    display: grid;
+    row-gap: 50px;
+    }
+        .col1>p{
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 40px;
+        }
+        .col1 h3{
+            font-weight: 800;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 0;
+            font-size: 40px;
+        }
+        .col2{
+            max-width: 530px;
+            margin: 0 auto;
+        }
+    }
+    .akademik-partnyor-icon{
+        margin-top: 80px;
+       
+        // gap: 50px;
+        .special{
+            width: 120px;
+            height: 70px;
+        }
+        .icon_item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow:row wrap;
+        }
+        .icon_item>a>img{
+            
+            margin-top: 30px;
+            margin-bottom: 30px;
+           width: 120px;
+           
+        }
+    }
+    }
