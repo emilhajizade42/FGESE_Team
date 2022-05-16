@@ -755,6 +755,55 @@ nav {
   width: 120px;
 }
 
+@media only screen and (max-width: 996px) {
+  #partnyor {
+    padding: 100px;
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  #partnyor .akademik-partnyor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #partnyor .akademik-partnyor .akademik-partnyor-info {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -ms-grid;
+    display: grid;
+    row-gap: 50px;
+  }
+  #partnyor .akademik-partnyor .col1 > p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 34px;
+  }
+  #partnyor .akademik-partnyor .col1 h3 {
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0;
+    font-size: 34px;
+  }
+}
+
 #graduates {
   margin-bottom: 100px;
 }
