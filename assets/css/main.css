@@ -576,6 +576,10 @@ nav {
   }
 }
 
+#mezun {
+  padding: 25px;
+}
+
 #mezun .graduate-info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1189,7 +1193,7 @@ footer {
   z-index: -1;
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 1048px) {
   .contact-header-thin {
     margin-left: 0;
   }
