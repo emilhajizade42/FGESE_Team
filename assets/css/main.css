@@ -256,7 +256,7 @@ nav {
 
 .ed-fields-left .ed-fields-left-header .ed-fields-left-header-bold {
   font-weight: bolder;
-  color: grey;
+  color: #4a4a4a;
   margin-bottom: -30px;
 }
 
@@ -625,6 +625,7 @@ nav {
 }
 
 #mezun .graduate-info .graduate-info-comment p {
+  color: #4a4a4a;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1035,6 +1036,7 @@ body {
 }
 
 .contact-header-bold {
+  color: #4a4a4a;
   font-size: 48px;
   font-weight: bolder;
 }
@@ -1193,7 +1195,7 @@ footer {
   z-index: -1;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1048px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   .contact-header-thin {
     margin-left: 0;
   }
